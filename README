@@ -1,1 +1,24 @@
-My First AgenticAI and Application Project Submission
+Week 4 Part A - AgenticAI and Application Project Submission
+The Project has 4 files/code cells
+1. Class Book
+2. Class Library
+3. Main.py
+4. books.csv
+
+The main program runs in a loop until quit by user and has 5 options provided
+0. Load books from csv file
+1. Add a book
+2. Display books
+3. Borrow a book
+4. Return a book
+5. Exit
+
+The Library class uses a simple list to store Books (Type Class Book)
+Borrowing a book, uses search book by author or title functions to find and return the book. 
+Then based on availability it will borrow the successfully and updates the availability flag as "Issued". 
+If the book is already "Issues" then it return the message book cannot be borrowed. 
+
+The Book class uses Itertool function count and next to create unique indexes for each book
+
+Limitations/ToDo:
+The search functions needs to be refined further to use ignorecase options to compare auther and titles.
